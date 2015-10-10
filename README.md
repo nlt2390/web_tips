@@ -8,4 +8,4 @@ transform: translateX(-50%) translateY(-50%);
 ```
 
 ####Handlebar helper + Bootstrap grid same height
-(handlebars_helper/bootstrap_grid_same_height.handlebars)
+[handlebars_helper/bootstrap_grid_same_height.handlebars](handlebars_helper/bootstrap_grid_same_height.handlebars)
