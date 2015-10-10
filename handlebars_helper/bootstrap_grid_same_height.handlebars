@@ -1,0 +1,27 @@
+<style>
+  .row-same-height-sm{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .bg-clip-content{
+    background-clip: content-box;
+  }
+</style>
+
+{{!-- gifts is an array --}}
+{{#forPage 0 gifts.length 4 1}}
+  <div class="row row-same-height">
+    {{#forPageIndex this 4 1}}
+      {{#getArrayAtIndex ../../gifts this}}
+        {{#if this}}
+          <div class="col-sm-3 bg-clip-content">
+            {{title}}
+          </div>
+        {{/if}}
+      {{/getArrayAtIndex}}
+    {{/forPageIndex}}
+  </div>
+{{/forPage}}
