@@ -23,3 +23,20 @@ by
 ```
 @import '/bootstrap/less/variables.less'; //Change the link depends on projects
 ```
+
+####IE 11 Ordered List
+```
+.ol{
+	counter-reset: item;
+	list-style-type: none;
+	position: relative;
+	li{
+		counter-increment: item;
+		&:before{	
+			content: counters(item, ".") " ";
+			position: absolute;
+			left: 14px;
+		}
+	}
+}
+```
