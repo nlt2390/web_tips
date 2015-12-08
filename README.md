@@ -11,7 +11,7 @@ transform: translateX(-50%) translateY(-50%);
 [handlebars_helper/bootstrap_grid_same_height.handlebars](handlebars_helper/bootstrap_grid_same_height.handlebars)
 
 ####Jquery parse HTML
-Sometime $(string) does not work with text returned from server. User $.parseHTML(string) to convert to Jquery object
+Sometime $('<div></div>') does not work with text returned from server. User $.parseHTML('<div></div>') to convert to Jquery object
 
 ####Mobile Landscape bootstrap
 Handle 480 and 760 pixels breakpoints, use this [gist](https://gist.githubusercontent.com/andyl/6360906/raw/dc9dd7c05d3f538da1e37fd50c85afbaa4365029/bootstrap_ms.css.scss).<br />
@@ -40,3 +40,5 @@ by
 	}
 }
 ```
+####IE11 Margin %
+Using margin % (i.e `margin: 50% 0;`) on any buttons or button wrapper can cause `$("button").click()` not work
