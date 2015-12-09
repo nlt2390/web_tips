@@ -42,3 +42,6 @@ by
 ```
 ####IE11 Margin %
 Using margin % (i.e `margin: 50% 0;`) on any buttons or button wrapper can cause `$("button").click()` not work
+
+####Css Greyscale
+Don't use "greyscale". Make image pixelated on IE and Androids.
