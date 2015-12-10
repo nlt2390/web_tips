@@ -40,8 +40,15 @@ by
 	}
 }
 ```
+
 ####IE11 Margin %
 Using margin % (i.e `margin: 50% 0;`) on any buttons or button wrapper can cause `$("button").click()` not work
 
 ####Css Greyscale
 Don't use "greyscale". Make image pixelated on IE and Androids.
+
+####Jquery `keyup` event
+Event `keyup` does not work on Safari, use jquery `on('input')` instead.
+
+####Function toLocaleString().
+Function `toLocaleString()` not work on Safari. Use this [function](https://github.com/nlt2390/web_tips/blob/master/localeString.js).
