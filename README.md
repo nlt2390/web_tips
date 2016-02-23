@@ -52,3 +52,6 @@ Event `keyup` does not work on Safari, use jquery `on('input')` instead.
 
 ####Function toLocaleString().
 Function `toLocaleString()` not work on Safari. Use this [function](https://github.com/nlt2390/web_tips/blob/master/localeString.js).
+
+####Integrate Datatable with Ajax source into Rails
+[Github](https://github.com/nlt2390/simple-rails-datatable-ajax)
