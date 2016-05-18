@@ -57,7 +57,7 @@ Function `toLocaleString()` not work on Safari. Use this [function](https://gith
 [Github](https://github.com/nlt2390/simple-rails-datatable-ajax)
 
 ####Prevent scroll body when Bootstrap modal is opened
-Only apply to modals that overlay fullscreen because this cause <body> misaligns
+Only apply to modals that overlay fullscreen because this cause `<body>` misaligns
 ```
 .modal-open{
   position: fixed;
