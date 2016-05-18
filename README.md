@@ -55,3 +55,11 @@ Function `toLocaleString()` not work on Safari. Use this [function](https://gith
 
 ####Integrate Datatable with Ajax source into Rails
 [Github](https://github.com/nlt2390/simple-rails-datatable-ajax)
+
+####Prevent scroll body when Bootstrap modal is opened
+Add this css:
+```
+.modal-open{
+  position: fixed;
+}
+```
