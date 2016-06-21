@@ -56,6 +56,7 @@ Function `toLocaleString()` not work on Safari. Use this [function](https://gith
 ####Integrate Datatable with Ajax source into Rails
 [Github](https://github.com/nlt2390/simple-rails-datatable-ajax)
 
+
 ####Prevent scroll body when Bootstrap modal is opened
 
 ```
@@ -65,3 +66,12 @@ Function `toLocaleString()` not work on Safari. Use this [function](https://gith
   padding-right: 0;
 }
 ```
+
+
+#### `float: left` with dynamic height
+
+![Image of float]
+(http://s3.amazonaws.com/web-tips/fill_empty_space.png)
+
+![Image of float]
+(http://s3.amazonaws.com/web-tips/not_fill_in.png)
