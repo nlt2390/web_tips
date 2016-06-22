@@ -62,8 +62,8 @@ Function `toLocaleString()` not work on Safari. Use this [function](https://gith
 ```
 .modal-open{
   position: fixed;
-  width: 100%;
-  padding-right: 0;
+  left: 0;
+  right: 0;
 }
 ```
 
