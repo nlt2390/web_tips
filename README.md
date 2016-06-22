@@ -58,6 +58,7 @@ Function `toLocaleString()` not work on Safari. Use this [function](https://gith
 
 
 ####Prevent scroll body when Bootstrap modal is opened
+Should be careful when using this, the content will scroll up to top.
 
 ```
 .modal-open{
