@@ -76,3 +76,11 @@ Should be careful when using this, the content will scroll up to top.
 
 ![Image of float]
 (http://s3.amazonaws.com/web-tips/not_fill_in.png)
+
+#### Jquery set `max-height:none` not work on IE 11
+```
+$(element).css({
+  'max-height': 'none'
+})
+```
+The above code not work for IE 11
