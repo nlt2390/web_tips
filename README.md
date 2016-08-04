@@ -84,3 +84,5 @@ $(element).css({
 })
 ```
 The above code not work for IE 11
+
+#### `rows` attribute in <textarea> not work with IE <= 11
