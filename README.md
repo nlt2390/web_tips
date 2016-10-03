@@ -63,10 +63,10 @@ Should be careful when using this, the content will scroll up to top.
 #### `float: left` with dynamic height
 
 ![Image of float]
-(http://s3.amazonaws.com/web-tips/fill_empty_space.png)
+(https://raw.githubusercontent.com/nlt2390/web_tips/master/fill_empty_space.png)
 
 ![Image of float]
-(http://s3.amazonaws.com/web-tips/not_fill_in.png)
+(https://raw.githubusercontent.com/nlt2390/web_tips/master/not_fill_in.png)
 
 #### Jquery set `max-height:none` not work on IE 11
 ```
